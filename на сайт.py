@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-PROXY_URL = 
+PROXY_URL = 'http://178.49.22.23'
 bot = Bot(token=os.environ.get('TOKEN'), proxy=PROXY_URL)
 dp = Dispatcher(bot)
 
